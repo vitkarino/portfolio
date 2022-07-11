@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viktor Kisel</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <section>
+          <a href="" id="logo"><img src="img/icon.svg" alt="" /></a>
+        </section>
+
+        <section>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#hire">Resume</a></li>
+            <li id="menu" onclick="menu()"><span class="iconify" data-icon="bytesize:menu" style="color: white;"></span></li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+    <ul class="nav-links-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#hire">Resume</a></li>
+    </ul>
+    <div class="container" id="home">
+      <div class="content">
+        <h2>Hi, <span>My name is Viktor</span></h2>
+        <h1>I&apos;m a digital artist and front end developer</h1>
+        <a href="#about"><button>About me</button></a>
+      </div>
+    </div>
+    <div class="container" id="about">
+      <div class="content">
+        <section>
+          <div class="about-section">
+            <h1>About me</h1>
+            <p>
+              I'm a beginner Front-End developer and Graphic designer from Kyiv,
+              Ukraine.
+            </p>
+            <p>
+              I've been working in software such as Photoshop and Figma since I
+              was 13 and was always interested in building websites completely on
+              my own.
+            </p>
+            <p>
+              So I've started making my dream come true by improving my skills
+              every day.
+            </p>
+          </div>
+          <div class="skills-section">
+            <h1>Skills</h1>
+            <ul>
+              <li><span>HTML5</span><span></span></li>
+              <li><span>CSS3</span><span></span></li>
+              <li><span>JavaScript</span><span></span></li>
+              <li><span>Figma</span><span></span></li>
+            </ul>
+            <ul>
+              <li><span>Photoshop</span><span></span></li>
+              <li><span>After Effects</span><span></span></li>
+              <li><span>Premiere Pro</span><span></span></li>
+              <li><span>Blender</span><span></span></li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div class="img"></div>
+        </section>
+      </div>
+    </div>
+    <div class="container" id="projects">
+      <div class="content">
+            <h1>Projects</h1>
+            <span>Sort by: <span>All</span></span>
+            <div class="search-options">
+              <button onclick="sortAll()">All</button>
+              <button onclick="sortWeb()">Web</button>
+              <button onclick="sortArt()">Art</button>
+            </div>
+          <div class="row">
+            <div class="column web">
+              <span>Portfolio</span>
+            </div>
+            <div class="column art" >
+              <span>Metal Energy</span>
+              <img src="img/metal-energy/preview.jpg" alt="">
+            </div>
+            <div class="column web">
+              <span>Monterey Online</span>
+              <img src="img/monterey-online/Preview.jpg" alt="">
+            </div>
+            <div class="column web">
+              <span>Tic Tac Toe</span>
+              <img src="img/tic-tac-toe/preview.jpg" alt="">
+            </div>
+            <div class="column web">
+              <span>Viktor's Web Handbook</span>
+              <img src="img/web-handbook/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>Stars of the Void</span>
+              <img src="img/stars-of-the-void/Preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>OFF THE GRID</span>
+              <img src="img/off-the-grid/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>Time</span>
+              <img src="img/time/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>Recap 2021</span>
+              <img src="img/recap-2021/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>Terrors of the Night</span>
+              <img src="img/terrors-of-the-night/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>The Perseverance Mission</span>
+              <img src="img/perseverance-mission.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>Frighty Blizzard</span>
+              <img src="img/frighty-blizzard/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>The Untouched Wilderness</span>
+              <img src="img/the-untouched-wilderness/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>Mind Whirlwind</span>
+              <img src="img/mind-whirlmind/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>The Electric Volcano</span>
+              <img src="img/electric-volcano/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>Crossing New Divide</span>
+              <img src="img/crossing-new-divide/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>The Reef</span>
+              <img src="img/the-reef/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>Moonlight</span>
+              <img src="img/moonlight/preview.jpg" alt="">
+            </div>
+            <div class="column art">
+              <span>Outlaws from the Wild West</span>
+            </div>
+            <div class="column art">
+              <span>The Ascender</span>
+            </div>
+            <div class="column art">
+              <span>Beyond Reality</span>
+              <img src="img/beyond-reality/preview.jpg" alt="">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="container" id="hire">
+      <div class="content">
+        <h1>Let&#8217s create something great <span>together</span>.</span></h1>
+        <a href="#about"><button>My C/V</button></a>
+      </div>
+    </div>
+    <footer>
+      <a href="mailto: ashrage24@gmail.com">ashrage24@gmail.com</a>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/_viktorkisel_/" target="_blank">
+          <span
+            class="iconify"
+            data-icon="akar-icons:instagram-fill"
+          ></span>
+        </a>
+        <a href="https://www.facebook.com/viktor.kisel.7/" target="_blank">
+          <span
+            class="iconify"
+            data-icon="brandico:facebook"
+          ></span>
+        </a>
+        <a href="https://github.com/ViktorKysil" target="_blank">
+          <span
+            class="iconify"
+            data-icon="akar-icons:github-fill"
+          ></span>
+        </a>
+        <a href="https://t.me/viktorkisel" target="_blank">
+          <span
+            class="iconify"
+            data-icon="bxl:telegram"
+          ></span>
+        </a>
+      </div>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  </body>
+</html>

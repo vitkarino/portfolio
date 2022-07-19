@@ -12,14 +12,29 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <meta name="theme-color" content="#0F0F0F">
   </head>
   <body>
+    <div class="loader-wrapper">
+      <img src="/img/icon-load.svg" alt="">
+    </div>
+    <div class="overlay" onclick="menu()"></div>
+    <!-- <div class="project-details">
+        <ul>
+          <li><h2 class="sub-heading">Title</h2></li>
+          <li><h1 class="small-heading">Year</h2></li>
+            <li><button>See on</button></li>
+            <li> <a href="">Download mobile wallpaper (1080 x 1920)</a></li>
+            <li><a href="">Download desktop wallpaper (3840 x 2160)</a></li>
+        </ul>
+        <img src="/img/crossing-new-divide/preview.jpg" alt="">
+    </div> -->
     <header>
       <nav>
         <section>
-          <a href="" id="logo"><img src="img/icon.svg" alt="" /></a>
+          <a href="#home" id="logo"><img src="img/icon.svg" alt="" /></a>
         </section>
-
         <section>
           <ul class="nav-links">
             <li><a href="#home">Home</a></li>
@@ -32,15 +47,15 @@
       </nav>
     </header>
     <ul class="nav-links-menu">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About me</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#hire">Resume</a></li>
+      <li><a href="#home" onclick="menu()">Home</a></li>
+      <li><a href="#about" onclick="menu()">About me</a></li>
+      <li><a href="#projects" onclick="menu()">Projects</a></li>
+      <li><a href="#hire" onclick="menu()">Resume</a></li>
     </ul>
     <div class="container" id="home">
       <div class="content">
-        <h2>Hi, <span>My name is Viktor</span></h2>
-        <h1>I&apos;m a digital artist and front end developer</h1>
+        <h1 class="small-heading">Hi, My name is Viktor</h1>
+        <h2 class="large-heading">I create something</h2>
         <a href="#about"><button>About me</button></a>
       </div>
     </div>
@@ -48,7 +63,7 @@
       <div class="content">
         <section>
           <div class="about-section">
-            <h1>About me</h1>
+            <h2 class="sub-heading">About me</h2>
             <p>
               I'm a beginner Front-End developer and Graphic designer from Kyiv,
               Ukraine.
@@ -64,7 +79,7 @@
             </p>
           </div>
           <div class="skills-section">
-            <h1>Skills</h1>
+            <h2 class="sub-heading">Skills</h2>
             <ul>
               <li><span>HTML5</span><span></span></li>
               <li><span>CSS3</span><span></span></li>
@@ -86,8 +101,8 @@
     </div>
     <div class="container" id="projects">
       <div class="content">
-            <h1>Projects</h1>
-            <span>Sort by: <span>All</span></span>
+            <h2 class="sub-heading">Projects</h2>
+            <p>Sort by: <span>All</span></p>
             <div class="search-options">
               <button onclick="sortAll()">All</button>
               <button onclick="sortWeb()">Web</button>
@@ -180,7 +195,7 @@
     </div>
     <div class="container" id="hire">
       <div class="content">
-        <h1>Let&#8217s create something great <span>together</span>.</span></h1>
+        <h2 class="sub-heading">Let&#8217s create something great <span>together</span>.</span></h2>
         <a href="#about"><button>My C/V</button></a>
       </div>
     </div>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="104" fill="none" viewBox="0 0 120 104">
+   <path fill="#fff" width="100%" height="25%" d="M47.007 40.126h40.07V25.834h-40.07v14.292Zm28.15 48.45L15.625 29.65.99 44.136l59.532 58.927 14.635-14.487Z">
+    <animate attributeName="fill" dur="3s" values="#fff;#4be3bf;#fff" repeatCount="indefinite" />
+   </path>
+  <path fill="#fff" width="100%" height="25%" d="M61.573 44.03V0H47.055v44.03h14.518Zm-1.138 59.033 59.531-58.927-14.635-14.487L45.8 88.576l14.635 14.487Z">
+   <animate attributeName="fill" dur="3s" values="#fff;#4be3bf;#fff" repeatCount="indefinite" />
+  </path>
+  <path fill="#fff" width="100%" height="25%" d="M75.26 53.714 33.19 12.073 18.557 26.559l42.068 41.642L75.26 53.714Z">
+   <animate attributeName="fill" dur="3s" values="#fff;#4be3bf;#fff" repeatCount="indefinite" />
+  </path>
+
+</svg>

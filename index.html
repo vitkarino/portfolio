@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Viktor Kisel</title>
+    <title>Viktor Kisel - Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,22 +14,25 @@
     />
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <meta name="theme-color" content="#0F0F0F">
+    <link rel="icon" type="image/x-icon" href="/img/Frame 39.svg">
   </head>
   <body>
     <div class="loader-wrapper">
-      <img src="/img/icon-load.svg" alt="">
+      <img src="img/icon-load.svg" alt="">
     </div>
-    <div class="overlay" onclick="menu()"></div>
-    <!-- <div class="project-details">
+    <div class="overlay" onclick="menuClose(); detailsClose()"></div>
+      <div class="project-details">
         <ul>
-          <li><h2 class="sub-heading">Title</h2></li>
-          <li><h1 class="small-heading">Year</h2></li>
-            <li><button>See on</button></li>
+          <li><h2 class="sub-heading">Terrors of the Night</h2></li>
+          <li><h1 class="small-heading">November 31, 2021</h2></li>
+            <li><button>See on Instagram</button></li>
+            <li><button>See on GitHub</button></li>
             <li> <a href="">Download mobile wallpaper (1080 x 1920)</a></li>
             <li><a href="">Download desktop wallpaper (3840 x 2160)</a></li>
         </ul>
         <img src="/img/crossing-new-divide/preview.jpg" alt="">
-    </div> -->
+    </div>
+    
     <header>
       <nav>
         <section>
@@ -55,7 +58,7 @@
     <div class="container" id="home">
       <div class="content">
         <h1 class="small-heading">Hi, My name is Viktor</h1>
-        <h2 class="large-heading">I create something</h2>
+        <h2 class="large-heading">I'm Front-End developer & Digital artist</h2>
         <a href="#about"><button>About me</button></a>
       </div>
     </div>
@@ -65,7 +68,7 @@
           <div class="about-section">
             <h2 class="sub-heading">About me</h2>
             <p>
-              I'm a beginner Front-End developer and Graphic designer from Kyiv,
+              I'm a beginner Front-End developer and Digital artist from Kyiv,
               Ukraine.
             </p>
             <p>
@@ -109,84 +112,86 @@
               <button onclick="sortArt()">Art</button>
             </div>
           <div class="row">
-            <div class="column web">
+            <div class="column web" onclick="details()">
               <span>Portfolio</span>
             </div>
-            <div class="column art" >
+            <div class="column art" onclick="details()">
               <span>Metal Energy</span>
               <img src="img/metal-energy/preview.jpg" alt="">
             </div>
-            <div class="column web">
+            <div class="column web" onclick="details()">
               <span>Monterey Online</span>
               <img src="img/monterey-online/Preview.jpg" alt="">
             </div>
-            <div class="column web">
-              <span>Tic Tac Toe</span>
-              <img src="img/tic-tac-toe/preview.jpg" alt="">
-            </div>
-            <div class="column web">
-              <span>Viktor's Web Handbook</span>
+            <div class="column web" onclick="details()">
+              <span>Viktor's Web Handbook (Bootstrap 5)</span>
               <img src="img/web-handbook/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column web" onclick="details()">
+              <span>Viktor's Web Handbook (Legacy)</span>
+              <img src="img/web-handbook-legacy/preview.jpg" alt="">
+            </div>
+            <div class="column art" onclick="details()">
               <span>Stars of the Void</span>
               <img src="img/stars-of-the-void/Preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>OFF THE GRID</span>
               <img src="img/off-the-grid/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>Time</span>
               <img src="img/time/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>Recap 2021</span>
               <img src="img/recap-2021/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>Terrors of the Night</span>
               <img src="img/terrors-of-the-night/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>The Perseverance Mission</span>
               <img src="img/perseverance-mission.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>Frighty Blizzard</span>
               <img src="img/frighty-blizzard/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>The Untouched Wilderness</span>
               <img src="img/the-untouched-wilderness/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>Mind Whirlwind</span>
               <img src="img/mind-whirlmind/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>The Electric Volcano</span>
               <img src="img/electric-volcano/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>Crossing New Divide</span>
               <img src="img/crossing-new-divide/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>The Reef</span>
               <img src="img/the-reef/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>Moonlight</span>
               <img src="img/moonlight/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>Outlaws from the Wild West</span>
+              <img src="img/outlaws-from-the-wild-west/preview.jpg" alt="">
             </div>
-            <div class="column art">
-              <span>The Ascender</span>
+            <div class="column art" onclick="details()">
+              <span>Rise</span>
+              <img src="img/rise/preview.jpg" alt="">
             </div>
-            <div class="column art">
+            <div class="column art" onclick="details()">
               <span>Beyond Reality</span>
               <img src="img/beyond-reality/preview.jpg" alt="">
             </div>
@@ -196,7 +201,7 @@
     <div class="container" id="hire">
       <div class="content">
         <h2 class="sub-heading">Let&#8217s create something great <span>together</span>.</span></h2>
-        <a href="#about"><button>My C/V</button></a>
+        <a href="#about"><button>My resume</button></a>
       </div>
     </div>
     <footer>
@@ -228,7 +233,7 @@
         </a>
       </div>
     </footer>
-    <script src="/js/script.js"></script>
+    <script src="js/script.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
   </body>
 </html>

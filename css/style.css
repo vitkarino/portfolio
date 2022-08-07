@@ -231,7 +231,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    background-image: url(/img/viktor2.png);
+    background-image: url('../img/viktor2.png');
     background-attachment: fixed;
     background-size: 240vh;
 }
@@ -315,7 +315,7 @@ p {
 
 #about .content .img {
     width: 100%;
-    background-image: url(/img/PXL_20210522_1040473852.png);
+    background-image: url('../img/PXL_20210522_1040473852.png');
     /* background-size: 100vh; */
     background-size: 200%;
     /* border-radius: 5px; */
@@ -615,7 +615,7 @@ footer a {
     }
 
     #about {
-        background-image: url(/img/viktor-about.png);
+        background-image: url('../img/viktor-about.png');
         background-position: center;
         background-size: 200%;
         background-position: 10% 50%;

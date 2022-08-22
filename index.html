@@ -25,10 +25,37 @@
         <ul>
           <li><h2 class="sub-heading">Terrors of the Night</h2></li>
           <li><h1 class="small-heading">November 31, 2021</h2></li>
-            <li><button>See on Instagram</button></li>
-            <li><button>See on GitHub</button></li>
-            <li> <a href="">Download mobile wallpaper (1080 x 1920)</a></li>
-            <li><a href="">Download desktop wallpaper (3840 x 2160)</a></li>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>CSS</li>
+              <li>Sass</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Figma</li>
+              <li>Photoshop</li>
+              <li>After Effects</li>
+              <li>Premiere Pro</li>
+              <li>Blender</li>
+            </ul>
+            <ul class="project-links">
+              <li><a href=""><span
+                class="iconify"
+                data-icon="akar-icons:github-fill"
+              ></span></a></li>
+              <li><a href=""><span
+                class="iconify"
+                data-icon="akar-icons:instagram-fill"
+              ></span></a></li>
+              
+              <li><a href=""><span class="iconify" data-icon="bxl:deviantart"></span></a></li>
+              <li><a href=""><span class="iconify" data-icon="akar-icons:link-chain"></span></a></li>
+              <li><a href=""><span class="iconify" data-icon="bi:spotify"></span></a></li>
+            </ul>
+            <ul class="wallpaper-links">
+              <li> <a href="">Download mobile wallpaper (1080 x 1920)</a></li>
+              <li><a href="">Download desktop wallpaper (3840 x 2160)</a></li>
+            </ul>
         </ul>
         <img src="/img/crossing-new-divide/preview.jpg" alt="">
     </div>
@@ -40,20 +67,29 @@
         </section>
         <section>
           <ul class="nav-links">
+            
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#hire">Resume</a></li>
-            <li id="menu" onclick="menu()"><span class="iconify" data-icon="bytesize:menu" style="color: white;"></span></li>
+            <!-- <li> <select name="cars" id="cars">
+              <option value="eng">ENG</option>
+              <option value="ua">UA</option>
+            </select></li> -->
+            <li id="menu"><span class="iconify" data-icon="bytesize:menu" style="color: white;"></span></li>
           </ul>
         </section>
       </nav>
     </header>
     <ul class="nav-links-menu">
-      <li><a href="#home" onclick="menu()">Home</a></li>
-      <li><a href="#about" onclick="menu()">About me</a></li>
-      <li><a href="#projects" onclick="menu()">Projects</a></li>
-      <li><a href="#hire" onclick="menu()">Resume</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#hire">Resume</a></li>
+      <!-- <li> <select name="cars" id="cars">
+        <option value="eng">ENG</option>
+        <option value="ua">UA</option>
+      </select></li> -->
     </ul>
     <div class="container" id="home">
       <div class="content">
@@ -118,6 +154,14 @@
             <div class="column art" onclick="details()">
               <span>Metal Energy</span>
               <img src="img/metal-energy/preview.jpg" alt="">
+            </div>
+            <div class="column art" onclick="details()">
+              <span>Metal Energy Volume 2</span>
+              <img src="img/metal-energy-vol/metal-energy-vol-2.jpg" alt="">
+            </div>
+            <div class="column art" onclick="details()">
+              <span>Metal Energy Volume 1</span>
+              <img src="img/metal-energy-vol/metal-energy-vol-1.jpg" alt="">
             </div>
             <div class="column web" onclick="details()">
               <span>Monterey Online</span>
